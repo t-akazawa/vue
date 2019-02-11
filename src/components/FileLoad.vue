@@ -19,7 +19,6 @@ export default {
   },
   methods: {
     onFileLoad: function(e) {
-      this.counter += 1
       const file = e.target.files[0]
       if (!file) { return false }
       this.fileinfo = `${this.msg} [${file.name} | ${file.size} | ${file.type} ]`
