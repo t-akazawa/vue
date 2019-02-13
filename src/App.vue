@@ -2,16 +2,19 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <FileLoad msg='FileLoad!!' />
+    <ShowFigures />
   </div>
 </template>
 
 <script>
 import FileLoad from './components/FileLoad.vue'
+import ShowFigures from './components/ShowFigures.vue'
 
 export default {
   name: 'app',
   components: {
-    FileLoad
+    FileLoad,
+    ShowFigures
   }
 }
 </script>
